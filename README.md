@@ -1,16 +1,18 @@
-Kepler Exoplanet Classification
+Kepler Exoplanet Classification 🌌
 
 Project Overview
 
-This project focuses on classifying exoplanet candidates using Machine Learning techniques and NASA Kepler telescope data.
+This project focuses on analyzing and classifying exoplanet candidates using data from NASA's Kepler mission.
+
+The goal is to explore the dataset, preprocess the data, train machine learning models, and evaluate their performance to classify exoplanet candidates.
 
 Dataset
 
-- Dataset: Kepler Cumulative Dataset ("cumulative.csv")
-- Source: NASA Exoplanet Archive
-- Task: Classification
+- Dataset: NASA Kepler Cumulative Dataset
+- File: "cumulative.csv"
+- Source: "NASA Exoplanet Archive" (https://exoplanetarchive.ipac.caltech.edu/)
 
-Technologies Used
+Tools & Technologies
 
 - Python
 - Pandas
@@ -23,15 +25,51 @@ Technologies Used
 Project Workflow
 
 1. Data Loading and Exploration
-2. Data Cleaning
-3. Missing Value Handling
-4. Outlier Detection and Handling
-5. Feature Engineering
-6. Data Preprocessing
-7. Model Training
-8. Model Evaluation and Comparison
+2. Exploratory Data Analysis (EDA)
+3. Data Cleaning
+4. Handling Missing Values
+5. Outlier Detection and Analysis
+6. Feature Engineering
+7. Data Preprocessing
+8. Machine Learning Model Training
+9. Model Evaluation and Comparison
 
-Project Notebook
+Results & Visualizations
 
-The complete implementation is available in the Jupyter Notebook in this repository.# NTI_Machine_-learning_-project
-Machine Learning project for Kepler Exoplanet Classification using data preprocessing, feature engineering, and classification models.
+This section includes visualizations generated during the data analysis and modeling process.
+
+Correlation Heatmap
+
+"Correlation Heatmap" (results/correlation_heatmap.png)
+
+Outliers Distribution
+
+"Outliers Distribution" (results/outliers_distribution.png)
+
+Target Distribution
+
+"Target Distribution" (results/target_distribution.png)
+
+Feature Distributions
+
+"Feature Distributions" (results/feature_distributions.png)
+
+Machine Learning Models
+
+Machine learning models were trained and evaluated as part of the classification task.
+
+Model names and evaluation results will be added after finalizing the experiments.
+
+Project Structure
+
+NTI_Machine_Learning_Project/
+│
+├── cumulative.ipynb
+├── cumulative.csv
+├── README.md
+│
+└── results/
+    ├── correlation_heatmap.png
+    ├── outliers_distribution.png
+    ├── target_distribution.png
+    └── feature_distributions.png
