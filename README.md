@@ -34,26 +34,23 @@ Project Workflow
 8. Machine Learning Model Training
 9. Model Evaluation and Comparison
 
-Results & Visualizations
 
-This section includes visualizations generated during the data analysis and modeling process.
+ ## Results & Visualizations
 
-Correlation Heatmap
+### Correlation Heatmap
+![Correlation Heatmap](results/correlation_heatmap.png)
 
-"Correlation Heatmap" (results/correlation_heatmap.png)
+### Outliers Distribution
+![Outliers Distribution](results/outliers_distribution.png)
 
-Outliers Distribution
+### Target Distribution
+![Target Distribution](results/target_distribution.png)
 
-"Outliers Distribution" (results/outliers_distribution.png)
+### Feature Distributions
+![Feature Distributions](results/feature_distributions.png)
 
-Target Distribution
-
-"Target Distribution" (results/target_distribution.png)
-
-Feature Distributions
-
-"Feature Distributions" (results/feature_distributions.png)
-
+### Feature Distribution by Disposition
+![Feature Distribution by Disposition](results/feature_by_disposition.png)
 Machine Learning Models
 
 Machine learning models were trained and evaluated as part of the classification task.
